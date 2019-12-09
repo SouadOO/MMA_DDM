@@ -1,0 +1,8 @@
+Data structure
+
+driver.csv     --> name;password;current position;skill 1,skill 2,...,skill n;mobile
+station.csv    --> name;position utm northing (meters); position utm easting (meters)
+vehicle.csv    --> type;id;status
+service.csv    --> line;number;station 1,station 2,...,station n;time 1,time 2,...,time n (seconds);distance 1,distance 2 ,...,distance n (meters)
+datapoints.csv --> vehicle in use id;line;service number;date (yyyMMdd);time (hhmmss);position utm northing (meters);position utm easting (meters);speed (km/h)
+travels.csv    --> vehicle id;line;service number;date (yyyMMdd);driver;distance (meters);total delay (minutes)
